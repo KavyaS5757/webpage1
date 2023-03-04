@@ -1,0 +1,134 @@
+*{
+    box-sizing: border-box;
+    padding: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.body{
+    overflow: hidden;
+    background-color: #ffffff;
+}
+
+body{
+    text-align: center;
+    font: 12px Verdana;
+    color: #565656;
+    background-color: #ffffff;
+    overflow-x: hidden;
+    max-width: 100%;
+}
+
+a{
+    color: rgb(10, 10, 61);
+    text-decoration: none;
+}
+
+a:hover{
+    color: #dc1000;
+}
+
+img{
+    border: 0;
+}
+
+#wrapper{
+    width: 1125px;
+    background: url(images/background.gif) repeat-x 0 0;
+    margin: auto auto;
+    text-align: end;
+    top: -3px;
+    padding: 10px 7px;
+}
+
+#header{
+    background: #b8c6db repeat-x 0 0;
+}
+
+#header ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style-type: none;
+    padding: 10px 10px;
+}
+
+#header ul li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    padding: 15px 15px;
+    border-left: 1px solid gray;
+}
+
+#header ul li.active {
+    border: 10px;
+}
+
+#header .row .column{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: end;
+    color: #252525;
+    padding: 10px;
+    display: inline;
+    margin-right: 10px;
+    padding-right: 0.5em;
+    top: -1px;
+}
+
+#content_text{
+    width: 80%;
+}
+
+#content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    background-color: #fffbfe;
+}
+
+#content_text .search{
+    background: no-repeat center center;
+    border-width: 3px;
+    border-color: #ffffff;
+    border-style: solid;
+    height: 50px;
+    font-size: medium;
+    b
+}
+
+#content_text .search input {
+    float: center;
+    border: 0;
+    font-size: 1.2em;
+    
+    width: 200px;
+    margin: 18px 11px 0 22px;
+    
+}
+#content_text .search button {
+    float: center;
+    height: 32px;
+    margin-top: 11px;
+    font-style: solid;
+}
+
+#footer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: unwrap;
+    width: 100%;
+    
+}
+
+#footer>*{
+    flex: 10 10 200px;
+}
+
+#box1{
+    width: 25%;
+}
